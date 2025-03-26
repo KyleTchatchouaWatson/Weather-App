@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="weather-container">
+        <input type="search" id="search" placeholder="Search 🔎" required autocomplete="off">
+        <div id="suggestions"></div>
+        <button id="weather-btn">Get Weather</button>
+        
+        <h2 id="city-country">City, Country</h2>
+        <p id="day">Day</p>
+        <img id="weather-icon" src="Assets/weather.jpg" alt="Weather icon">
+        <h1 id="temperature">--°C</h1>
+        <p id="description">Weather Condition</p>
+        <div id="forecast" class="forecast-container"></div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
